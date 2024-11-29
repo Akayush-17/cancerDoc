@@ -10,4 +10,15 @@ export default defineConfig({
     },
   },
   base: "./",
+  build: {
+    rollupOptions: {
+      // Optional: Separate libraries into chunks for better performance
+      output: {
+        manualChunks: {
+          vendor: ['react', 'react-dom'],
+        },
+      },
+    },
+    chunkSizeWarningLimit: 1500, // Suppress warnings for large chunks
+  },
 });

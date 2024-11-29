@@ -27,8 +27,8 @@
     "markdown-to-jsx": "^7.4.7",
     "openai": "^4.52.0",
     "preline": "^2.3.0",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "react-markdown": "^9.0.1",
     "react-router-dom": "^6.4.4",
     "rehype-highlight": "^7.0.0",
@@ -37,9 +37,6 @@
     "remark-math": "^6.0.0"
   },
   "devDependencies": {
-    "@babel/plugin-transform-react-jsx": "^7.25.9",
-    "@babel/preset-env": "^7.26.0",
-    "@babel/preset-react": "^7.25.9",
     "@vitejs/plugin-react": "^2.2.0",
     "autoprefixer": "^10.4.13",
     "drizzle-kit": "^0.23.0",
